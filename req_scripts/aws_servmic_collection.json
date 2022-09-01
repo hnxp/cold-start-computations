@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "371b7c13-1039-4dfb-841d-09e8f4d8f640",
+		"name": "aws_servmic",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://kwugscg3f3.execute-api.eu-west-2.amazonaws.com/prod/servmic",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"iteration\": 5000\n}"
+				},
+				"url": {
+					"raw": "https://kwugscg3f3.execute-api.eu-west-2.amazonaws.com/prod/servmic?",
+					"protocol": "https",
+					"host": [
+						"kwugscg3f3",
+						"execute-api",
+						"eu-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"servmic"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": ""
+						}
+					]
+					
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

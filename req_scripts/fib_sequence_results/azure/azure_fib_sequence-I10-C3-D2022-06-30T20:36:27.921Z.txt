@@ -1,0 +1,1 @@
+{"computation_time": 0.0019},{"computation_time": 0.0076},{"computation_time": 0.003},{"computation_time": 0.0182},{"computation_time": 0.0023},{"computation_time": 0.0063},{"computation_time": 0.0157},{"computation_time": 0.0099},{"computation_time": 0.0042},{"computation_time": 0.0036},

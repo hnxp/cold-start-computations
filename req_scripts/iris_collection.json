@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "6c9b67a1-290e-47a6-9e34-06af7c7463d9",
+		"name": "iris",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://c8cq1xihwk.execute-api.eu-west-2.amazonaws.com/test/classify",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"data\": [\n[5.0,3.5,1.3,0.3],\n[6.1,2.8,4.7,1.2]\n]\n}"
+				},
+				"url": {
+					"raw": "https://c8cq1xihwk.execute-api.eu-west-2.amazonaws.com/test/classify",
+					"protocol": "https",
+					"host": [
+						"c8cq1xihwk",
+						"execute-api",
+						"eu-west-2",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"test",
+						"classify"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

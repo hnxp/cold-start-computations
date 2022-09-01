@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "37a01dbc-f543-47bd-9a54-4854fd782994",
+		"name": "gcloud_fib_sequence",
+		"description": "run HTTP requests to compute 5000 iterations long fibonacci sequence on gcloud",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "gcloud_fib_sequence",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://europe-west2-liquid-optics-354223.cloudfunctions.net/get_fib_sequence?iteration=50000",
+					"protocol": "https",
+					"host": [
+						"europe-west2-liquid-optics-354223",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"get_fib_sequence"
+					],
+					"query": [
+						{
+							"key": "iteration",
+							"value": "50000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
